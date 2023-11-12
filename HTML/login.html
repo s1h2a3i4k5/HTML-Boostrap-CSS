@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Here</title>
+    <style>
+        /* body {
+            margin: 186px 0px;
+            background-color: white;
+        } */
+
+        label {
+            display: block;
+            /* margin: 5px; */
+            padding: 0px 31px
+        }
+
+        input {
+            width: 294px;
+            margin: 5px 29px;
+            padding: 8px;
+        }
+
+
+        form {
+            height: 300px;
+            width: 400px;
+            margin: 20px auto;
+            background-color: wheat;
+            /* border: 2px solid red;
+            margin-top: 150px; */
+        }
+
+        input[type="submit"] {
+            padding: 2px 13px;
+            margin: 12px 38px;
+            /* width: 123px; */
+        }
+
+
+
+        .head1 img {
+            height: 241px;
+            width: 1021px;
+            display: block;
+            margin: auto
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head1">
+        <img src="Images/image.jpg" alt="">
+    </header>
+    <form action="save.php" method="get">
+
+        <h2 style="text-align: center;padding-top: 22px;">Login</h2>
+        <label for="email">Email:</label>
+        <input type="email" value="" id="email" name="email" placeholder="Enter your E-mail">
+        <label for="pwd">Password:</label>
+        <input type="password" value="" id="pwd" name="password" placeholder="enter your password">
+        <div><input type="submit">
+            <p style="text-align: center;">Not having account? <a href="signup.html">Sign-up Here</a></p>
+        </div>
+    </form>
+</body>
+
+</html>

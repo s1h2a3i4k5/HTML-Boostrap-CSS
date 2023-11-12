@@ -1,0 +1,32 @@
+body{
+    background-color: #181d31;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    /* border:2px solid red; */
+    width:300px;
+    margin:auto;
+    text-align: center;
+    color: white;
+   
+}
+label{
+    display:flex;
+    margin-top:9px;
+    /* align-items: center;
+    justify-content: center; */
+}
+input[type="number"]{
+    width:290px;
+    padding:4px;
+    margin:2px;
+}
+input[type="submit"]{
+    margin:16px;
+    width:300px;
+    margin-left:2px;
+    padding:8px;
+    background-color: #ff6931;
+    border: none;
+    color: white;
+}

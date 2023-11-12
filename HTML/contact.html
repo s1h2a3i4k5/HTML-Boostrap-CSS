@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact US</title>
+    <style>
+        /* .contact{
+            width:500px;
+            height: 500px;
+            /* border: 2px solid red; */
+            /*display: block;
+            margin: auto;
+            background-color: blueviolet;
+        } */
+        label {
+            display: block;
+
+        }
+
+        form {
+            width: 316px;
+            margin: auto;
+            border: 2px solid red;
+            padding: 3px 141px;
+            background-color: aqua;
+
+        }
+
+        label,
+        input,
+        textarea {
+            width: 300px;
+            margin: 5px;
+
+        }
+
+        h1,
+        p {
+            text-align: center;
+        }
+       
+    </style>
+
+</head>
+
+
+
+
+<body>
+       <div class="contact">
+        <form action="Save.php" method="get">
+
+            <h1>Contact Us</h1>
+
+            <p>Got a Question? W've love to hear from you.Send a message.We'll respond as soon as possiable </p>
+            <label for="name">Name:</label>
+            <input type="text" value="" id="name" name="name1" placeholder="">
+            <label for="email">E-mail:</label>
+            <input type="email" value="" id="email" name="email1" placeholder="">
+            <label for="message">Meassage:</label>
+            <textarea name="Msg" id="message" cols="30" rows="10"></textarea>
+            <div>
+                <input style="width: 100px; border:2px solid black;border-radius: 10px;" type="submit">
+            </div>
+           <p>Back to Home page  <a href="Index.html" target="_blank">Click here </a></p>
+            
+        </form>
+    </div>
+
+    
+</body>
+
+
+
+
+</html>

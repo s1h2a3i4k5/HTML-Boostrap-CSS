@@ -1,0 +1,45 @@
+body {
+    background-color: #181d31;
+    margin:0px;
+    padding:0px;
+   
+}
+ a{
+    color: white !important;
+    font-weight: bold;
+}
+.brand-orange{
+    background-color: #fb6542;;
+}
+h2,h3{
+    color: white;
+}
+
+.card-img-top{
+    height:200px;
+    
+}
+/* .card{
+    width:225px;
+} */
+/* .prod{
+    width:330px;
+} */
+
+.btn-primary:hover {
+    background-color: #555;
+    border-color: #555;
+  }
+  
+.btn{
+    background-color:#fb6542;
+    border: #fb6542;
+    
+
+}
+.btn-block {
+    margin-top: 20px;
+    width:100%;
+  }
+  
+  

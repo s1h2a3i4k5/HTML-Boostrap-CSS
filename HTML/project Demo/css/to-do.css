@@ -1,0 +1,26 @@
+body{
+    background-color: #181d31;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    /* border:2px solid red; */
+    width:421px;
+    height:400px;
+    margin: auto;
+    text-align: center;
+    color:#f45418 ;
+}
+.add-bor{
+    border:1px solid white;
+    padding: 34px;
+}
+input[type="text"]{
+    width:275px;
+    padding:6px;
+}
+input[type="button"]{
+    width:56px;
+    padding:7px;
+    background-color: #f45418;
+    border: none;
+}

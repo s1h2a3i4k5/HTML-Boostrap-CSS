@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <style>
+        /* label {
+            display: block;
+            margin:4px;
+            
+        } */
+        body{
+            margin:-72px;
+        }
+
+        .signup {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 100px auto;
+            border: 2px solid red;
+            width: 800px;
+            background-color: palevioletred;
+            padding-top: 40px;
+            padding-bottom: 50px;
+        }
+
+        /* .signup {
+            display: flex;
+             
+            align-items: flex-end;
+            justify-content: center; 
+            
+
+        } */
+
+        form {
+            background-color: white;
+            width: 500px;
+
+        }
+
+        .forms input,
+        label {
+            width: 350px;
+            margin: 6px 4px;
+            padding: 4px 10px;
+        }
+
+        .forms {
+            width: 250px;
+            margin: 17px;
+        }
+
+        
+        footer{
+           
+           width:280px;
+           /* text-align: center; */
+           margin: auto;
+           margin-top: -136px;
+           /* border:2px solid red;*/
+        } 
+    </style>
+</head>
+
+<body>
+
+    <div class="signup" >
+        <form action="save.php" method="get">
+
+            <h2 style="text-align: center;">Sign-up</h2>
+            <p style="text-align: center;">It is free to sign-up,It's do it</p>
+            
+            <div class="forms">
+                <label for="name">First Name:</label>
+                <input type="text" value="" name="name" id="name" placeholder="Enter your  First name">
+            </div>
+
+            <div class="forms">
+                <label for="name1">Last Name:</label>
+                <input type="text" value="" id="name1" name="name2" placeholder="Enter your Last Nmae">
+            </div>
+            <div class="forms">
+
+                <label for="E-mail">E-mail:</label>
+                <input type="email" value="" id="E-mail" name="email" placeholder="Enter your E-mail">
+            </div>
+            <div class="forms">
+                <label for="pwd">Password:</label>
+                <input type="password" value="" id="pwd" name="pwd" placeholder="Enter your Password">
+            </div>
+            <div class="forms">
+                <label for="cpwd">Confirm Password:</label>
+                <input type="password" value="" id="cpwd" name="password" placeholder="Enter your Password">
+            </div>
+            <input style="margin: 19px 32px; padding: 6px 169px;background-color: green;" ; type="submit">
+
+            <p style="text-align: center; margin: 4px;">By clicking the sign up button you can agree to our
+                <a href="#">Term and Conditions</a> and <a href="#">Policy and Privacy</a>
+
+            </p>
+
+
+
+
+        </form>
+
+        
+    </div>
+    <footer>
+    <p >Already have account? <a href="login.html">login here</a></p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body {
+    background-color: #181d31;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-fulid {
+    width: 320px;
+    margin: auto;
+    color: white;
+    /* border:2px solid red; */
+
+}
+
+input[type="number"] {
+    width: 300px;
+    --bs-border-radius: none;
+    margin-top:-7px;
+     border:none;
+}
+
+.btn {
+    width: 302px;
+    --bs-border-radius: none;
+    background-color: #fb6542;
+    border: #fb6542;
+    color: white;
+
+    /* margin-top:15px; */
+}
+
+.btn-primary:hover{
+    background-color: #333;
+    border-color: #333;
+}
+
+
+
+

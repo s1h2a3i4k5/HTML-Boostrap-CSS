@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3749db5f7c.js" crossorigin="anonymous"></script>
+    <title>navigation</title>
+    <style>
+        /* .mydiv{
+           background-color: green;
+          height: 40px; 
+         position: absolute;
+         top:0px;
+         right:20px;
+          
+        }
+        .mydiv a{
+            font-size: 40px;
+            color: green;
+
+        } */
+        /* img{
+            height:45px;
+            width:41px;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container-fluid">
+        <div class="navi   ">
+            <ul class="nav nav-tabs ">
+                <li class="nav-item"><a href="#" class="nav-link "><i class="fa fa-home"></i>Home</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-user"></i>Profile</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">User 1</a>
+                        <a href="#" class="dropdown-item">User 1</a>
+                        <a href="#" class="dropdown-item">User 1</a>
+
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link active" ><i class="fa fa-envelope"></i>Contact us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa fa-line-chart"></i>Contact us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link disabled"><i class="fa-sharp fa-light fa-location-dot"></i>About us</a></li>
+            </ul>
+        </div>
+
+    </div> -->
+
+
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item"><a href="#home" class="nav-link " data-bs-toggle="tab"><i class="fa fa-home"></i>Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a href="#profile" class="nav-link " data-bs-toggle="tab"><i class="fa fa-user"></i>Profile</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contact" class="nav-link " data-bs-toggle="tab"><i class="fa fa-envelope"></i>Contactus</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#About" class="nav-link" data-bs-toggle="tab"><i
+                    class="fa-sharp fa-light fa-location-dot"></i>About us</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" class="container tab-pane">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus soluta repudiandae iste non
+                placeat fuga, sed impedit praesentium. Sed necessitatibus quam consequuntur mollitia magnam id, suscipit
+                quo expedita enim?</p>
+
+        </div>
+        <div id="profile" class="container tab-pane">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus soluta repudiandae iste non
+                placeat fuga, sed impedit praesentium. Sed necessitatibus quam consequuntur mollitia magnam id, suscipit
+                quo expedita enim?</p>
+
+        </div>
+        <div id="contact" class="container tab-pane">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus soluta repudiandae iste non
+                placeat fuga, sed impedit praesentium. Sed necessitatibus quam consequuntur mollitia magnam id, suscipit
+                quo expedita enim?</p>
+
+        </div>
+        <div id="About" class="container tab-pane">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repellendus soluta repudiandae iste non
+                placeat fuga, sed impedit praesentium. Sed necessitatibus quam consequuntur mollitia magnam id, suscipit
+                quo expedita enim?</p>
+
+        </div>
+
+    </div>
+    <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+
+
+            <a class="navbar-brand">Logo</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Collapsenav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Collapsenav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Menu1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">menu 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">menu 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">menu 4</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark  role=tablist sticky-top">
+        <div class="container-fluid">
+            <img class="navbar-brand rounded-circle"
+                src="https://tse2.mm.bing.net/th?id=OIP.avxhtQqr5FoubGjq4sIXugHaEo&pid=Api&P=0&h=180" alt="" srcset=""
+                height="50px" width="50px">
+
+            <!-- button section -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsemenu" type="button">
+                <span class="navbar-toggler-icon"></span> </button>
+                
+            <!-- menu section -->
+            <div class="collapse navbar-collapse" id="collapsemenu">
+                <!-- /*ms=margin-right me=margin-left*/ -->
+                <ul class="navbar-nav me-auto navbar-tab">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="https:google.com">User 1</a></li>
+                            <li class="dropdown-item"><a href="https:google.com">user 2</a></li>
+                            <li class="dropdown-item"><a href="https:google.com">user 3</a></li>
+                            <li class="dropdown-item"><a href="https:google.com">user 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link ">Contact us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- <div class="mydiv">
+    <a href="https://google.com " target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+</div> -->
+
+
+    <!-- fromw3schoolnavbar -->
+    <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Link</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quidem saepe ipsa ratione doloremque temporibus
+        illum nobis labore praesentium tenetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laborum omnis ea error aut, qui facilis.
+        Consectetur velit perspiciatis itaque.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quidem saepe ipsa ratione doloremque temporibus
+        illum nobis labore praesentium tenetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laborum omnis ea error aut, qui facilis.
+        Consectetur velit perspiciatis itaque.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quidem saepe ipsa ratione doloremque temporibus
+        illum nobis labore praesentium tenetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laborum omnis ea error aut, qui facilis.
+        Consectetur velit perspiciatis itaque.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quidem saepe ipsa ratione doloremque temporibus
+        illum nobis labore praesentium tenetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laborum omnis ea error aut, qui facilis.
+        Consectetur velit perspiciatis itaque.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quidem saepe ipsa ratione doloremque temporibus
+        illum nobis labore praesentium tenetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto hic error cum qui deleniti itaque non ea
+        sapiente tenetur consequuntur quos corrupti unde aut laudantium voluptatum deserunt veniam dolorem id distinctio
+        tempora, quo inventore cupiditate. Dolor id, corrupti incidunt corporis cumque vitae deserunt error veritatis
+        nostrum, quisquam nulla accusamus ducimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto hic error cum qui deleniti itaque non ea
+        sapiente tenetur consequuntur quos corrupti unde aut laudantium voluptatum deserunt veniam dolorem id distinctio
+        tempora, quo inventore cupiditate. Dolor id, corrupti incidunt corporis cumque vitae deserunt error veritatis
+        nostrum, quisquam nulla accusamus ducimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto hic error cum qui deleniti itaque non ea
+        sapiente tenetur consequuntur quos corrupti unde aut laudantium voluptatum deserunt veniam dolorem id distinctio
+        tempora, quo inventore cupiditate. Dolor id, corrupti incidunt corporis cumque vitae deserunt error veritatis
+        nostrum, quisquam nulla accusamus ducimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto hic error cum qui deleniti itaque non ea
+        sapiente tenetur consequuntur quos corrupti unde aut laudantium voluptatum deserunt veniam dolorem id distinctio
+        tempora, quo inventore cupiditate. Dolor id, corrupti incidunt corporis cumque vitae deserunt error veritatis
+        nostrum, quisquam nulla accusamus ducimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto hic error cum qui deleniti itaque non ea
+        sapiente tenetur consequuntur quos corrupti unde aut laudantium voluptatum deserunt veniam dolorem id distinctio
+        tempora, quo inventore cupiditate. Dolor id, corrupti incidunt corporis cumque vitae deserunt error veritatis
+        nostrum, quisquam nulla accusamus ducimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto hic error cum qui deleniti itaque non ea
+        sapiente tenetur consequuntur quos corrupti unde aut laudantium voluptatum deserunt veniam dolorem id distinctio
+        tempora, quo inventore cupiditate. Dolor id, corrupti incidunt corporis cumque vitae deserunt error veritatis
+        nostrum, quisquam nulla accusamus ducimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto hic error cum qui deleniti itaque non ea
+        sapiente tenetur consequuntur quos corrupti unde aut laudantium voluptatum deserunt veniam dolorem id distinctio
+        tempora, quo inventore cupiditate. Dolor id, corrupti incidunt corporis cumque vitae deserunt error veritatis
+        nostrum, quisquam nulla accusamus ducimus.</p> -->
+
+</body>
+
+</html>

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog Website</title>
+
+    <style>
+        html {
+
+            scroll-behavior: smooth
+        }
+
+        body {
+
+            margin: 0px;
+
+            background-color: #17375f;
+        }
+
+        #head {
+
+            /* display: flex; */
+
+            position: sticky;
+
+            top: 0px;
+
+            /* right:0px; */
+        }
+
+        .navbar {
+
+            display: flex;
+
+            /* align-items:center; */
+            /* border: 2px solid red;  */
+            /* background-color: #d84315; */
+
+            position: relative;
+
+            top: 0px;
+        }
+
+        .navbar::before {
+
+            content: " ";
+
+            background-color: #d84315;
+
+            position: absolute;
+
+            top: 0px;
+
+            left: 0px;
+
+            height: 100%;
+
+            width: 100%;
+
+            z-index: -1;
+
+            /* opacity: 0.4; */
+        }
+
+        .navbar h2 {
+
+            margin-left: 20px;
+
+            color: aliceblue;
+
+        }
+
+        .navbar ul {
+
+            display: flex;
+
+            margin: 23px;
+
+            position: absolute;
+
+            /* top:0px; */
+
+            right: 6px;
+
+        }
+
+        .navbar ul li {
+
+            list-style: none;
+
+        }
+
+        .navbar ul li a {
+
+            padding: 27px;
+
+            font-size: 20px;
+
+            color: aliceblue;
+
+            text-decoration: none;
+        }
+
+
+
+
+        .boxes {
+
+
+            /* border: 2px solid red; */
+
+            margin: 25px;
+
+            height: 870px;
+
+
+            width: 736px;
+
+            /* padding:2px; */
+
+            margin-left: 211px;
+
+            margin-bottom: 30px;
+
+        }
+
+
+
+
+        .box img {
+
+            height: 209px;
+
+            width: 736px;
+        }
+
+
+
+
+        .box {
+
+            background-color: aliceblue;
+
+            height: 395px;
+
+            width: 736px;
+
+            border: 2px solid aliceblue;
+
+            border-radius: 7px;
+        }
+
+
+
+
+        .box h1,
+
+        p {
+
+            padding-left: 15px;
+
+            font-size: 19px;
+        }
+
+
+
+
+        .box1 {
+
+            margin: 30px 0px;
+            width: 736px;
+
+            height: 200px;
+
+            border: 2px solid aliceblue;
+
+            background-color: aliceblue;
+        }
+
+
+
+
+        .box1 p,
+
+        h1 {
+
+            padding-left: 15px;
+
+            font-size: 19px;
+
+        }
+
+
+
+
+        .btn {
+
+            padding: 10px;
+
+
+            margin: 13px;
+
+            background-color: #d84315;
+
+            color: aliceblue;
+
+            border: 2px solid #d84315;
+
+            border-radius: 6px;
+
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+
+            background-color: gray;
+
+        }
+
+        .btn:active {
+
+            background-color: #17375f;
+
+
+
+        }
+
+
+
+
+        .cate {
+
+            /* border: 2px solid #ddd; */
+
+            width: 342px;
+
+            height: 494px;
+
+            position: absolute;
+
+
+
+            right: 166px;
+
+            top: 70px;
+
+            /* left:20px; */
+
+            padding: 17px;
+            /* padding-bottom: 10px;; */
+
+            /* background-color: aliceblue; */
+        }
+
+
+
+
+
+        .cat1 h1 {
+
+            padding: 4px;
+
+            margin: 4px;
+
+        }
+
+        table {
+
+            border-collapse: collapse;
+        }
+
+        td {
+
+            border: 2px solid #ddd;
+
+            padding: 15px;
+
+            width: 280px;
+
+            font-size: 17px;
+        }
+
+        .cat1 {
+
+            background-color: aliceblue;
+
+            padding: 21px;
+
+            border-radius: 10px;
+
+            margin-bottom: 20px;
+
+        }
+
+
+
+
+        /* .cat2{
+
+            margin-top: 42px;
+
+            background-color: aliceblue;
+
+            padding:21px;
+
+            border-radius: 10px;
+
+        } */
+    </style>
+
+</head>
+
+
+
+
+<body>
+
+    <header id="head">
+
+        <div class="navbar">
+
+            <h2>My Blog</h2>
+
+            <ul>
+
+                <li><a href="">Home</a></li>
+
+                <li><a href="">About</a></li>
+
+                <li><a href="">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <div class="boxes">
+
+        <div class="box">
+
+            <img src="bg.jpg" alt="background image">
+
+            <h1>Featured Article Title</h1>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid recusandae pariatur veniam expedita
+
+                dolore harum in necessitatibus odit corrupti id?</p>
+
+            <input class="btn" type="button" value="Read more">
+
+
+
+
+        </div>
+
+
+
+
+        <div class="box1">
+
+            <h1>Article Title</h1>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid recusandae pariatur veniam expedita
+
+                dolore harum in necessitatibus odit corrupti id?</p>
+
+            <input class="btn" type="button" value="Read more">
+
+        </div>
+
+        <div class="box1">
+
+            <h1>Conculsion</h1>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid recusandae pariatur veniam expedita
+
+                dolore harum in necessitatibus odit corrupti id?</p>
+
+            <input class="btn" type="button" value="Read more">
+
+        </div>
+    </div>
+
+
+
+    <section id="cat">
+
+        <div class="cate">
+
+            <div class="cat1">
+
+                <h1>Categories</h1>
+
+                <table>
+
+                    <tr>
+
+                        <td>Category 1</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Category 2</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Category 3</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Category 4</td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+            <div class="cat1">
+
+                <h1>Recent post</h1>
+
+                <table>
+
+                    <tr>
+
+                        <td>post 1</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>post 2</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>post 3</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>post 4</td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+
+
+
+</html>

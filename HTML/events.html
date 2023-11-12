@@ -1,0 +1,488 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Event</title>
+
+    <style>
+
+        .items {
+
+            cursor: pointer;
+
+        }
+
+
+
+
+        h1 {
+
+            color: red;
+
+            text-align: center;
+
+        }
+
+
+
+
+        #items img {
+
+            display: block;
+
+            margin: auto;
+
+            height: 200px;
+
+
+
+
+        }
+
+
+
+
+        .font {
+
+            background-color: black;
+
+            padding: 3px;
+
+        }
+
+
+
+
+        .font ul {
+
+            display: flex;
+
+
+
+
+
+        }
+
+
+
+
+        ul li {
+
+            list-style: none;
+
+        }
+
+
+
+
+        ul li a {
+
+            /* text-decoration: none; */
+
+            padding: 20px;
+
+            margin: 4px;
+
+            font-size: 20px;
+
+            color: white;
+
+        }
+
+
+
+
+        ul li a:hover {
+
+            background-color: pink;
+
+            color: red;
+
+        }
+
+
+
+
+        table {
+
+            width: 100%;
+
+            border-collapse: collapse;
+
+
+
+
+        }
+
+
+
+
+        th {
+
+            background-color: #f2f2f2;
+
+        }
+
+
+
+
+        th,
+
+        td {
+
+            padding: 4px;
+            margin:4px;
+
+            text-align: center;
+
+            border-bottom: 1px solid #ddd;
+
+
+
+
+        }
+
+
+
+
+        .Form-items input {
+
+            width: 300px;
+
+            margin: 12px 27px;
+
+            padding: 4px;
+
+        }
+
+
+
+
+        .Forms-item {
+
+            /* border: 2px solid crimson; */
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            margin: auto;
+
+            background-color: grey;
+
+
+
+
+
+            width: 200px;
+
+            padding: 0px 100px;
+
+
+
+
+        }
+
+
+
+
+        .hobbies {
+
+            margin: 10px;
+
+        }
+
+    </style>
+
+</head>
+
+
+
+
+<body>
+
+    <div id="items">
+
+        <h1>Book MY Show</h1>
+
+        <marquee>
+
+            <p>Book your tickets here to enjoy your Favourite hero Movie:</p>
+
+        </marquee>
+
+        <img src="images/image.jpg" alt="Book my show">
+
+    </div>
+
+    <div class="font">
+
+        <ul>
+
+            <li><a href="Index.html" target="_blank">Home</a></li>
+
+            <li><a href="events.html" target="_blank">Events</a></li>
+
+            <li><a href="sports.html" target="_blank">Sports</a></li>
+
+            <li><a href="contact.html" target="_blank">Contact Us</a></li>
+
+        </ul>
+
+    </div>
+
+    <h2>Events in Hyderbad</h2>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Event Name</th>
+
+                <th>Date</th>
+
+                <th>Default</th>
+
+                <th>Register Here</th>
+
+                <th>Event Image</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>Event 1</td>
+
+                <td>June 15,2023</td>
+
+                <td>At Gachibowli</td>
+
+                <td><a href="signup.html">Click to register</a></td>
+
+                <td><img src="images/image.jpg" alt="" height="60px"></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Event 2</td>
+
+                <td>June 5,2023</td>
+
+                <td>Kukatpalli</td>
+
+                <td><a href="#">Click to register</a></td>
+
+                <td><img src="images/image.jpg" alt="" height="60px" ></td>
+
+            </tr>
+
+            <tr>
+
+                <td>Event 3</td>
+
+                <td>June 1,2023</td>
+
+                <td>Adibatla</td>
+
+                <td><a href="#">Click to register</a></td>
+
+                <td><img src="images/image.jpg" alt="" height="60px"></td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <h2 style="text-align: center;">Forms Examples</h2>
+
+    <div class="Forms-item">
+
+
+
+
+        <form action="save.php" method="get">
+
+            <div class=Form-items>
+
+                <label for="name">Name:</label>
+
+                <input type="text" name="Name" id="name" placeholder="Enter your name" value="" required>
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="E-mail">E-mail:</label>
+
+                <input type="email" id="E-mail" placeholder="Enter the mail id" name="email">
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="number">Phone Number:</label>
+
+                <input type="number" id="number" placeholder="Enter your Moblie number" maxlength="10" name="number">
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="DOB">DOB:</label>
+
+                <input type="date" id="DOB" placeholder="Enter your Moblie number" name="DOB">
+
+            </div>
+
+            <div class=hobbies>
+
+                <label for="radio">Gender:</label>
+
+                <input type="radio" name="gender" value="Male" id="male"><label for="male">Male</label>
+
+                <input type="radio" name="gender" value="FeMale" id="FeMale"><label for="FeMale">FeMale</label>
+
+            </div>
+
+            <div class=hobbies>
+
+                <label  for="hob">Hobbies:</label>
+
+                <input type="checkbox" name="hobbies" value="Movies" id="hob1"><label for="hob1">Movies</label>
+
+                <input type="checkbox" name="hobbies" value="Books" id="hob2"><label for="hob2">Books</label>
+
+                <input type="checkbox" name="hobbies" value="Eating" id="hob3"><label for="hob3">Eating</label>
+
+                <input type="checkbox" name="hobbies" value="Sleeping" id="hob4"><label for="hob4">Sleeping</label>
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="range">Range:</label>
+
+                <input type="range" name="range" id="range" min="0" max="100">
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="color">color:</label>
+
+                <input type="color" name="color" id="color">
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="datetime-local">Datetime-local:</label>
+
+                <input type="datetime-local" name="date" id="datetime-local">
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="file">File:</label>
+
+                <input type="file" name="file" id="file">
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="hidden">Hidden:</label>
+
+                <input type="hidden" name="file" id="hidden">
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="month">month:</label>
+
+                <input type="month" name="month" id="month">
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="url">URL:</label>
+
+                <input type="url" name="url" id="url">
+
+            </div>
+
+            <div class=Form-items>
+
+                <label for="edu">Education:</label>
+
+                <select name="Education" id="edu">
+
+                    <option value="B.tech">B.TECH</option>
+
+                    <option value="B.Com">B.COM</option>
+
+                    <option value="M.tech">M.TECH</option>
+
+                    <option value="C.tech">C.TECH</option>
+
+                </select>
+
+            </div>
+
+           
+
+                <!-- <label for="submit">serach</label> -->
+
+                <input type="search" name="submit" id="submit">
+
+               
+
+           
+
+            <input type="button" value="search">
+            <div class="Form-items">
+                <input type="submit">
+            </div>
+
+
+
+
+        </form>
+
+    </div>
+
+  
+
+
+
+
+</body>
+
+
+
+
+</html>

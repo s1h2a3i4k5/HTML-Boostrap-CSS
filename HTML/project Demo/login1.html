@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            display: flex;
+
+        }
+
+        .logo {
+            margin-left: 53px;
+            margin-top: 7px;
+            padding: 4px;
+        }
+
+
+        .nav ul {
+            display: flex;
+            position: absolute;
+            top: 23px;
+            right: 137px;
+            
+        }
+
+        .nav ul li {
+            list-style: none;
+            
+        }
+
+        .nav ul li a {
+            padding: 17px;
+            margin: 4px;
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        .nav ul li a:hover{
+            color: white;
+            background-color:#ddb261 ;
+        }
+
+        .nav ul input {
+            padding: 13px;
+            margin-left: 23px;
+            margin-top: -6px;
+            width: 111px;
+            border-radius: 5px;
+            font-size: 15px;
+            background-color: #ddb261;
+
+        }
+
+        .nav ul input:hover {
+            background: white;
+            
+        }
+
+        .nav::before {
+            background: url("bg.jpg") no-repeat center center/cover;
+            content: " ";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 800px;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.9;
+        }
+
+        .form-one {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin: 140px auto;
+            border: 2px solid #ddb261;
+            border-radius: 15px;
+            width: 380px;
+            padding: 15px;
+            height: 350px;
+            background-color:#ddb261;
+        }
+
+        .form-type input {
+            width: 330px;
+            margin: 10px;
+            padding: 4px;
+            /* text-decoration: none;
+            border-bottom:2px solid red; */
+
+        }
+        
+
+        .primary {
+            text-align: center;
+            padding: 39px;
+            margin-top: -42px;
+        }
+        .form-type a{
+            margin: 4px;
+            padding:4px;
+        }
+        .form-type p{
+           text-align: center;
+           margin:8px;
+           padding:7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h2>Logo</h2>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <input type="button" value="Login">
+        </ul>
+    </div>
+    <div>
+
+        <div class="form-one">
+
+            <form action="">
+                <div class="form-type">
+                    <h2 class="primary">Login</h2>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-type">
+                    <label for="pwd">Password:</label>
+                    <input type="password" name="pwd" id="pwd">
+                </div>
+                <div class="form-type">
+                    <input style="margin-left: -151px;" type="checkbox" name="name" value="Remenber me"
+                        id="check"><label style="margin: -156px;" for="check">Remember me</label>
+                    <a style="position: absolute; right: 621px;" href="#">Forget Password ?</a>
+                </div>
+                <div class="form-type">
+                    <input type="button" value="Login">
+                </div>
+                <div class="form-type">
+                    <p>Don't have account ? <a href="">Register Here</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

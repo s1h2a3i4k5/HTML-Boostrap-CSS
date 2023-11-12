@@ -1,0 +1,38 @@
+.left{
+    background-color:red;
+    height: 100px;
+    width:70%;
+    display: flex;
+}
+.right{
+    background-color:green;
+    height: 100px;
+    width:30%;
+}
+/* header division */
+#divid{
+    display: flex;
+}
+.leftone{
+    width: 50%;
+    height: 71px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+
+
+.lefttwo{
+    width: 47%;
+    height: 71px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.para{
+    width: 30%;
+    height: 75px;
+    background-color: blueviolet;
+    overflow:scroll;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid areas</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding:0px;
+            margin:0px;
+        }
+        header,main,aside,footer,nav{
+            background-color: steelblue;
+            border:1px solid skyblue;
+           
+        }
+       body{
+        display:grid;
+        grid-template-areas: 
+        'myheader myheader myheader'
+        'mynav mycontent mysilderbar'
+        'mynav myfooter myfooter';
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: 10% 80% 10%;
+        height: 100vh;
+       }
+       header{
+        grid-area: myheader;
+       }
+       nav{
+        grid-area:mynav ;
+       }
+       main{
+        grid-area: mycontent;
+       }
+       aside{
+        grid-area: mysilderbar;
+       }
+       footer{
+        grid-area: myfooter;
+       }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <nav>Navigation</nav>
+    <main>Contanet</main>
+    <aside>Sildebar</aside>
+    <footer>Footer</footer>
+
+</body>
+</html>
